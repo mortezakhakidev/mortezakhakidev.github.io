@@ -1,16 +1,363 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My Website</title>
-</head>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morteza Khaki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  </head>
 <body>
+<nav data-section="navigation" class="m-nav">
+	<a href="/" class="logo">Morteza Khaki</a>
+	<ul id="nav-links" class="nav-links">
+		<li><a href="#section01">About</a></li>
+		<li><a href="#section02">Projects</a></li>
+		<li><a href="#section03">Contact</a></li>
+	</ul>
+	<button type="button" class="nav-toggle" aria-label="Open menu" aria-controls="nav-links" aria-expanded="false">☰</button>
+</nav>
 
-    <h1>Welcome to my website</h1>
+<section data-section="features" data-snippet="features.sticky-split-rows" data-owned-motion="" class="ssr" id="section01" data-generated-section="section01">
+  <div class="ssr__inner">
+    <header class="ssr__head" data-slot="">
+      <div class="svc-head">
+        <h2 class="m-heading">About</h2>
+        <p class="svc-lede"><span>My name is Morteza Khaki. I am interested in applying data science, optimization, computational intelligence, and mathematical modeling to practical problems in engineering and complex systems. I enjoy exploring how data and computational methods can help us understand these problems and make better-informed decisions, particularly when uncertainty and real-world constraints are involved.</span></p>
+		<div class="alert">
+			<img src="img/alert.svg" width="25" style="width: 25px"> 
+			<p class="m-caption">I am currently seeking PhD opportunities to further explore my research interests and contribute to cutting-edge advancements in the field. I am passionate about collaborating with innovative research groups to push the boundaries of knowledge and drive meaningful impact.</p>
+		</div>
+		
+		
 
-    <p>This is my own text.</p>
+      </div>
+      <div class="svc-person">
+        <img class="svc-avatar" src="img/morteza-khaki.avif" style="width: 250px; border-radius: 50%; border: 6px solid #d9d7c2;" alt="Morteza Khaki">
+      </div>
+    </header>
+  </div>
+</section>
 
-    <img src="images/photo.jpg" alt="My photo">
+<section data-section="features" data-snippet="features.sticky-split-rows" data-owned-motion="" class="ssr" id="section02" data-generated-section="section02">
+  <div class="ssr__inner">
+    <header class="ssr__head" data-slot="">
+      <div class="svc-head">
+        <h2 class="m-heading">Projects & Codes</h2>
+      </div>
+    </header>
+    <div class="ssr__body">
+      <aside class="ssr__rail">
+        <div class="ssr__watermark" data-slot="text"><span>print("Let's code")</span></div>
+      </aside>
+      <div class="ssr__rows">
+        <article class="ssr__row" data-slot="" data-sticky-under-nav="">
+          <div class="svc-row">
+            <div class="m-card svc-panel">
+              <div class="svc-panel-top">
+                <span class="m-label">#01</span>
+              </div>
+              <h3 class="m-display">Interactive Control Panel for Managing Smart Home Energy and Appliances</h3>
+              <p class="svc-copy">This project offers a control panel where users can monitor their consumption via charts and manually control it. The software automatically adjusts device power to optimize consumption and minimize off times. It also supports integration with learning algorithms.</p>
+              <div class="svc-offer">
+                <h4 class="svc-offer-title">Key Advantages</h4>
+                <div class="pill-row">
+                  <span class="m-badge">Real-Time Energy Monitoring</span>
+                  <span class="m-badge">Intelligent Appliance Optimization</span>
+                  <span class="m-badge">AI-Powered Smart Control</span>
+                </div>
+              </div>
+              <div class="svc-cta">
+                <a class="m-btn mr-10" href="demo/p3/" data-motion="button-bubble-rise">Online Demo</a>
+				<a class="m-btn mr-10" href="" data-motion="button-bubble-rise">Github</a>
+              </div>
+            </div>
+            <div class="round-media svc-media">
+              <img src="img/01-control-panel.avif" data-people="" alt="Interactive Control Panel for Managing Smart Home Energy and Appliances">
+              <div class="svc-overlay">
+                <p class="svc-quote">Technologies:</p>
+                <div class="svc-person">
+                  <span class="m-caption svc-person-name">JavaScript, IoT Systems, Energy Monitoring, Automation, Web Technologies</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        
+		
+		
+		<article class="ssr__row" data-slot="" data-sticky-under-nav="">
+          <div class="svc-row">
+            <div class="m-card svc-panel">
+              <div class="svc-panel-top">
+                <span class="m-label">#02</span>
+              </div>
+              <h3 class="m-display">IoT Appliance Energy Usage Analysis from Large-Scale CSV Datasets</h3>
+              <p class="svc-copy">The primary goal of this project is to uncover standard usage patterns for household appliances by leveraging high-frequency power consumption data gathered from numerous smart plugs and IoT devices. The extensive dataset comprises several large-scale CSV files—one for each appliance—each containing around 1 million records, highlighting the massive volume of data involved. Additionally, a dedicated index CSV file supplies essential metadata, connecting each appliance-specific CSV file to its respective category and supplementary information.</p>
+              <div class="svc-offer">
+                <h4 class="svc-offer-title">Key Advantages</h4>
+                <div class="pill-row">
+                  <span class="m-badge">High-Frequency Data Analysis</span>
+                  <span class="m-badge">Household Usage Pattern Discovery</span>
+                  <span class="m-badge">Large-Scale IoT Data Processing</span>
+                </div>
+              </div>
+              <div class="svc-cta">
+				<a class="m-btn mr-10" href="#" data-motion="button-bubble-rise">Github</a>
+              </div>
+            </div>
+            <div class="round-media svc-media">
+              <img src="img/02-iot.avif" data-people="" alt="IoT Appliance Energy Usage Analysis from Large-Scale CSV Datasets">
+              <div class="svc-overlay">
+                <p class="svc-quote">Technologies:</p>
+                <div class="svc-person">
+                  <span class="m-caption svc-person-name">Python, Pandas, Time-Series Analysis, Data Engineering, IoT Analytics</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+		
+		
+		<article class="ssr__row" data-slot="" data-sticky-under-nav="">
+          <div class="svc-row">
+            <div class="m-card svc-panel">
+              <div class="svc-panel-top">
+                <span class="m-label">#03</span>
+              </div>
+              <h3 class="m-display">Optimized Demand Response Program Using Reinforcement Learning and Bayesian Optimization</h3>
+              <p class="svc-copy">This project demonstrates a demand response program designed to allocate energy resources efficiently while encouraging participants to reduce consumption during peak hours. The program employs a combination of reinforcement learning (RL) and Bayesian optimization to maximize overall utility and fairness among participants in a reverse auction setting. By evaluating bids and utility values, the program identifies the most suitable participants to receive incentives. Initial reward values are calculated through a numerical method, and the RL process fine-tunes decisions over time, guided by optimized hyperparameters. The result is an efficient and dynamic energy allocation model that balances economic and operational goals.</p>
+              <div class="svc-offer">
+                <h4 class="svc-offer-title">Key Advantages</h4>
+                <div class="pill-row">
+                  <span class="m-badge">Intelligent Demand Response</span>
+                  <span class="m-badge">Reinforcement Learning</span>
+                  <span class="m-badge">Fair Incentive Allocation</span>
+                </div>
+              </div>
+              <div class="svc-cta">
+				<a class="m-btn mr-10" href="#" data-motion="button-bubble-rise">Github</a>
+              </div>
+            </div>
+            <div class="round-media svc-media">
+              <img src="img/03-dr.avif" data-people="" alt="Demand Response Program Using Reinforcement Learning and Bayesian Optimization">
+              <div class="svc-overlay">
+                <p class="svc-quote">Technologies:</p>
+                <div class="svc-person">
+                  <span class="m-caption svc-person-name">Python, Reinforcement Learning, Bayesian Optimization, Energy Systems Modeling</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        
+		
+        <article class="ssr__row" data-slot="" data-sticky-under-nav="">
+          <div class="svc-row">
+            <div class="m-card svc-panel">
+              <div class="svc-panel-top">
+                <span class="m-label">#04</span>
+              </div>
+              <h3 class="m-display">Non-Convex Optimization Algorithm for Optimal Energy Management System</h3>
+              <p class="svc-copy">This project presents a new energy management algorithm for a smart home with a Plug-in Electric Vehicle (PEV), home energy storage, and photovoltaics (PV), which is based on grid and PEV energy cost minimization.</p>
+              <div class="svc-offer">
+                <h4 class="svc-offer-title">Key Advantages</h4>
+                <div class="pill-row">
+                  <span class="m-badge">Smart Home Energy Management</span>
+                  <span class="m-badge">Grid and PEV Cost Optimization</span>
+                  <span class="m-badge">PV and Energy Storage Integration</span>
+                </div>
+              </div>
+              <div class="svc-cta">
+				<a class="m-btn mr-10" href="#" data-motion="button-bubble-rise">Github</a>
+              </div>
+            </div>
+            <div class="round-media svc-media">
+              <img src="img/04-non-convex.avif" data-people="" alt="Non-Convex Optimization Algorithm for Optimal Energy Management System">
+              <div class="svc-overlay">
+                <p class="svc-quote">Technologies:</p>
+                <div class="svc-person">
+                  <span class="m-caption svc-person-name">Optimization, Energy Management Systems, Smart Grid Modeling, Python/MATLAB</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>	
+		
+		
+			
+        <article class="ssr__row" data-slot="" data-sticky-under-nav="">
+          <div class="svc-row">
+            <div class="m-card svc-panel">
+              <div class="svc-panel-top">
+                <span class="m-label">#05</span>
+              </div>
+              <h3 class="m-display">Optimal Scheduling and Pattern Recognition of Appliance Usage Using APRIORI Algorithm</h3>
+              <p class="svc-copy">This project uses the Apriori algorithm to analyze historical appliance usage data and identify combinations of devices that are frequently used together. Based on these patterns, it optimizes appliance scheduling and power allocation while ensuring that total consumption remains within a predefined power limit. The system also balances operating times to meet minimum usage requirements, helping users follow energy-efficient patterns, reduce energy waste, and optimize household appliance schedules.</p>
+              <div class="svc-offer">
+                <h4 class="svc-offer-title">Key Advantages</h4>
+                <div class="pill-row">
+                  <span class="m-badge">Pattern Discovery</span>
+                  <span class="m-badge">Optimized Scheduling</span>
+                  <span class="m-badge">Power-Constrained Energy Management</span>
+                </div>
+              </div>
+              <div class="svc-cta">
+				<a class="m-btn mr-10" href="#" data-motion="button-bubble-rise">Github</a>
+              </div>
+            </div>
+            <div class="round-media svc-media">
+              <img src="img/05-apriori.avif" data-people="" alt="Optimal Scheduling and Pattern Recognition of Appliance Usage Using APRIORI Algorithm">
+              <div class="svc-overlay">
+                <p class="svc-quote">Technologies:</p>
+                <div class="svc-person">
+                  <span class="m-caption svc-person-name">Optimization, Energy Management Systems, Pattern Recognition, Python</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>	
 
-</body>
-</html>
+		
+	
+
+        <article class="ssr__row" data-slot="" data-sticky-under-nav="">
+          <div class="svc-row">
+            <div class="m-card svc-panel">
+              <div class="svc-panel-top">
+                <span class="m-label">#06</span>
+              </div>
+              <h3 class="m-display">Synthetic Outlier Generation and Filtering</h3>
+              <p class="svc-copy">This project focuses on generating and refining synthetic outliers for data analysis. It uses Gaussian Mixture Models (GMM) to create local and global outliers based on the statistical properties of an input dataset. These outliers are then filtered iteratively using a K-Nearest Neighbors (KNN) classifier, ensuring the refined datasets are accurate and reliable. The final local and global outlier datasets are saved for further use in anomaly detection or model validation tasks.</p>
+              <div class="svc-offer">
+                <h4 class="svc-offer-title">Key Advantages</h4>
+                <div class="pill-row">
+                  <span class="m-badge">Synthetic Outlier Generation</span>
+                  <span class="m-badge">GMM-Based Data Modeling</span>
+                  <span class="m-badge">KNN-Powered Outlier Refinement</span>
+                </div>
+              </div>
+              <div class="svc-cta">
+				<a class="m-btn mr-10" href="#" data-motion="button-bubble-rise">Github (Threshold Method)</a>
+				<a class="m-btn mr-10" href="#" data-motion="button-bubble-rise">Github (KNN Classifier Method)</a>
+              </div>
+            </div>
+            <div class="round-media svc-media">
+              <img src="img/06-outlier.avif" data-people="" alt="Synthetic Outlier Generation and Filtering">
+              <div class="svc-overlay">
+                <p class="svc-quote">Technologies:</p>
+                <div class="svc-person">
+                  <span class="m-caption svc-person-name">GMM, KNN, Anomaly Detection, Python</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>	
+
+		
+		
+        <article class="ssr__row" data-slot="" data-sticky-under-nav="">
+          <div class="svc-row">
+            <div class="m-card svc-panel">
+              <div class="svc-panel-top">
+                <span class="m-label">#07</span>
+              </div>
+              <h3 class="m-display">Live Data Visualization</h3>
+              <p class="svc-copy">In this project, I created a visual interface using Javascript, HTML and CSS, and fetch MySQL database records using cURL and REST API, implement PUL, POST, and DELETE requests instantly without refreshing the page, and visualize live data using powerful D3.js library, Ajax and jQuery.</p>
+              <div class="svc-offer">
+                <h4 class="svc-offer-title">Key Advantages</h4>
+                <div class="pill-row">
+                  <span class="m-badge">RESTful API Integration</span>
+                  <span class="m-badge">Dynamic Data Visualization</span>
+                  <span class="m-badge">Live Database Interaction</span>
+                </div>
+              </div>
+              <div class="svc-cta">
+				<a class="m-btn mr-10" href="#" data-motion="button-bubble-rise">Github</a>
+              </div>
+            </div>
+            <div class="round-media svc-media">
+              <img src="img/07-visualization.avif" data-people="" alt="Live Data Visualization">
+              <div class="svc-overlay">
+                <p class="svc-quote">Technologies:</p>
+                <div class="svc-person">
+                  <span class="m-caption svc-person-name">PHP, Ajax, D3.js, RESTful API, MySQL, Visualization</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+		
+
+        <article class="ssr__row" data-slot="" data-sticky-under-nav="">
+          <div class="svc-row">
+            <div class="m-card svc-panel">
+              <div class="svc-panel-top">
+                <span class="m-label">#08</span>
+              </div>
+              <h3 class="m-display">Demand Response Program using Integer Linear Programming</h3>
+              <p class="svc-copy">This project implements a demand response program to reduce electricity consumption during specific hours by allocating incentives to customers. Both the MATLAB and Python versions employ a reverse auction mechanism to allocate power budgets effectively. The goal is to maximize utility and minimize cost while adhering to program constraints.</p>
+              <div class="svc-offer">
+                <h4 class="svc-offer-title">Key Advantages</h4>
+                <div class="pill-row">
+                  <span class="m-badge">Demand Response Optimization</span>
+                  <span class="m-badge">Reverse Auction Mechanism</span>
+                  <span class="m-badge">Cost-Effective Incentive Allocation</span>
+                </div>
+              </div>
+              <div class="svc-cta">
+				<a class="m-btn mr-10" href="#" data-motion="button-bubble-rise">Github</a>
+              </div>
+            </div>
+            <div class="round-media svc-media">
+              <img src="img/08-dr-ilp.avif" data-people="" alt="Demand Response Program using Integer Linear Programming">
+              <div class="svc-overlay">
+                <p class="svc-quote">Technologies:</p>
+                <div class="svc-person">
+                  <span class="m-caption svc-person-name">Matlab, Python, Energy Management, Auction Mechanism</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+		
+		
+		</div>
+    </div>
+  </div>
+</section>
+
+<footer class="section" data-section="features" id="section03" data-generated-section="section03">
+  <div class="container">
+
+    <h2 class="m-heading section03-heading2"><span>Let's</span> <span class="text-muted">Connect</span></h2>
+	<p class="section03-lede">I'm interested in collaborating, discussing a project, or exploring new research opportunities. Feel free to get in touch.</p>
+
+    <div class="section03-bar m-section-alt">
+      <ul class="grid-3 section03-list" data-motion="stagger-rise">
+        <li class="section03-item">
+          <h3 class="m-display">Email</h3>
+          <p class="m-caption" style="display: flex; align-items: center; gap: 10px;"><img src="img/arrow-right.svg" width="25" style="width: 25px"> <a href="mailto:morteza.khaki@gmail.com">morteza.khaki@gmail.com</a></p>
+        </li>
+        <li class="section03-item">
+        </li>
+        <li class="section03-item">
+          <div style="display: flex">
+			<span class="mr-10"><a href=""><img width="150px" src="img/linkedin.avif"></a></span>
+			<span class="mr-10"><a href=""><img width="150px" src="img/scholar.avif"></a></span>
+			<span class="mr-10"><a href=""><img width="150px" src="img/github.avif"></a></span>
+		  </div>
+        </li>
+      </ul>
+    </div>
+	<p class="section03-lede m-caption section11-copy" style="text-align: center"># Build, create, design, and have it fail. Learn, read, fix, and start over. Such is the engineer’s way. © 2026</p>
+	
+
+
+  </div>
+</footer>
+
+
+
+
+<script src="script.js"></script>
+</body></html>
