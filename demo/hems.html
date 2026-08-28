@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -117,6 +118,28 @@
 		.slider.round:before {
 		  border-radius: 50%;
 		}
+		
+        .myButton {
+        	background-color:#4954f5;
+        	border-radius:28px;
+        	border:1px solid #6781cf;
+        	display:inline-block;
+        	cursor:pointer;
+        	color:#ffffff;
+        	font-family:Arial;
+        	font-size:17px;
+        	padding:16px 31px;
+        	text-decoration:none;
+        	text-shadow:0px 1px 0px #3e5fb3;
+        }
+        .myButton:hover {
+        	background-color:#476e9e;
+        }
+        .myButton:active {
+        	position:relative;
+        	top:1px;
+        }
+
 	</style>
   </head>
 
@@ -125,12 +148,23 @@
 
     <!-- canvas element in a container -->
     <div class="wrapper">
-		<canvas id="canvas" width="1600" height="900"></canvas>
+        <div>
+            <h1 style="font-size: 31px;">Interactive Control Panel for Managing Smart Home Energy and Appliances</h1>
+            <p style="margin-bottom: 50px;color:#3f3f3f">This project offers a control panel where users can monitor their consumption via charts and manually control it. The software automatically adjusts device power to optimize consumption and minimize off times. It also supports integration with learning algorithms.</p>
+
+            <p style="text-align: center; color: red;margin-bottom:20px;">By dragging the gray line down, the three electrical devices change their states optimally.</p>
+        </div>
+       
+        
+		
     
 
 		<div style="text-align: left; font-size:17px;">
-			<p style="text-align: center";>By dragging the gray line, following equipments will adjust their states.</p>
-			<table style="width: 100%; text-align: center;margin-top: 50px;">
+		    
+		    
+			
+			
+			<table style="width: 100%; text-align: center;margin-top: 50px; margin-bottom: 30px;">
 				<tr>
 					<td>
 						<!-- Rounded switch -->
@@ -158,10 +192,15 @@
 					</td>
 
 				</tr>
-			<table>
+			</table>
 			
 
 		</div>
+		<canvas id="canvas" width="1600" height="900"></canvas>
+		
+		<div style="text-align: center">
+		        <a href="https://mortezakhaki.ir/demo/p3/" class="myButton">Reset</a>    
+		    </div>
 
 	</div>
 
